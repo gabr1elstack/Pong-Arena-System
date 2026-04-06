@@ -1,93 +1,43 @@
-# 🎮 Pong Arena System
+🎮 Pong Arena System
 
-Um jogo clássico de ping pong feito em Python com foco em prática real de desenvolvimento: organização, persistência de dados e construção de interface.
+Um joguinho de ping pong feito em Python pra treinar de verdade: organizar código, mexer com banco de dados e montar uma interface na mão.
 
----
+🚀 O que tem no projeto
+Login pra 2 jogadores
+Salvamento dos dados com SQLite
+Ranking automático
+Interface feita com Pygame
+Partidas até 10 pontos
 
-## 🚀 O que tem nesse projeto
+🛠️ Tecnologias
+Python
+Pygame
+SQLite
 
-* Sistema de login para 2 jogadores
-* Salvamento de dados com SQLite
-* Ranking automático dos melhores jogadores
-* Interface feita com Pygame
-* Partidas com pontuação até 10 pontos
-
----
-
-## 🛠️ Tecnologias usadas
-
-* Python
-* Pygame
-* SQLite
-
----
-
-## 📂 Estrutura do projeto
-
-```
-pong-arena/
-│
-├── main.py        # Arquivo principal
-├── game.py        # Lógica do jogo
-├── ui.py          # Interface (telas e inputs)
-├── db.py          # Banco de dados
-│
-├── dados/
-│   └── jogadores.db
-```
-
----
-
-## ▶️ Como rodar o projeto
-
-1. Clone o repositório:
-
-```
+▶️ Como rodar
+Clona o repositório:
 git clone https://github.com/gabr1elstack/pong-arena-system.git
-```
 
-2. Entre na pasta:
-
-```
+Entra na pasta:
 cd pong-arena-system
-```
 
-3. Instale as dependências:
-
-```
+Instala o que precisa:
 pip install pygame
-```
 
-4. Execute:
-
-```
+Roda o jogo:
 python main.py
-```
 
----
+🧠 O que foi aprendido
+Banco de dados na prática
+Separar o código direito
+Fazer interface interativa
 
-## 🧠 O que eu aprendi com esse projeto
-
-* Trabalhar com banco de dados na prática
-* Organizar código em módulos
-* Criar interface interativa com Pygame
-* Controlar lógica de jogo em tempo real
-
----
-
-## 📌 Próximas melhorias
-
-* [ ] Adicionar modo contra IA
-* [ ] Melhorar interface visual
-* [ ] Adicionar sons no jogo
-* [ ] Histórico de partidas
-
----
-
-## 👨‍💻 Autor
+Controlar a lógica do jogo rodando em tempo real
+📌 Melhorias futuras
+Modo contra IA
+Interface mais bonita
+Sons no jogo
+Histórico de partidas
+👨‍💻 Autor
 
 Gabriel (gabr1elstack)
-
----
-
-Esse projeto foi feito na prática, errando, ajustando e melhorando aos poucos.
