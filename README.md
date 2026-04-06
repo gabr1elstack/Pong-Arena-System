@@ -38,15 +38,12 @@ Enquanto o jogo roda, tem código trabalhando quieto: criando pasta, salvando jo
 ```
 pong-arena/
 │
-├── main.py
-├── game.py
-├── ui.py
-├── db.py
+├── pingpong.py
+├── criar_pong.py
 │
 ├── dados/
 │   └── jogadores.db
 ```
-
 ---
 
 ## ▶️ Como rodar
